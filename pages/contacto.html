@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Icono favicom-->
+    <link rel="shortcut icon" href="../assets/icons/1erchabonnfinalizado.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <title>El rincón de Gabo-Contacto</title>
+</head>
+
+<body class="backgroundcontacto">
+    <header id="header">
+        <h1>El rincón de Gabo!</h1>
+        <p>Información de contacto!</p>
+        <!-- Imagen header-->
+        <nav>
+            <!--Links a mis paginas-->
+            <!-- lista desordenada-->
+            <ul class="nav__list">
+                <!--enlaces relativos-->
+                <li class="list__links"><a href="../index.html">Inicio</a> </li>
+                <li class="list__links"><a href="./imagenes.html">Imagenes</a> </li>
+                <li class="list__links"><a href="./animaciones.html"> Animaciones</a></li>
+                <li class="list__links"><a href="./musica.html">Musica</a> </li>
+                <li class="list__links"><a href="#">Contacto</a> </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="main__contact">
+            <!--formulario de contacto-->
+            <article>
+                <!-- Acá vendría la info de contacto-->
+                <form action="procesar.php" name="Contacto" method="post" class="form__container">
+                    <fieldset class="form__container--fieldset">
+                        <legend class="legend">Comentame que te parece mi laburo!</legend>
+                        <div>
+                            <label for="nombre">Nombre</label>
+                            <input type="text" name="Nombre" placeholder="Mike" required>
+                        </div>
+                        <div>
+                            <label for="apellido">Apellido</label>
+                            <input type="text" name="apellido" placeholder="Tyson" required>
+                        </div>
+                        <div>
+                            <label for="email">E-mail</label>
+                            <input type="email" name="Mimail" placeholder="Hola@servidor.com.ar" required>
+                        </div>
+                        <div>
+                            <label for="contraseña">Contraseña</label>
+                            <input type="password" name="contraseña" placeholder="contraseña">
+                        </div>
+                        <!--Radio-->
+                        <h3>Sexo</h3>
+                        <div class="sex-container">
+                            <input type="Radio" name="sexo" value="hombre">
+                            <label for="sexo">Hombre</label>
+                        </div>
+                        <div class="sex-container">
+                        <input type="Radio" name="sexo" value="mujer">
+                        <label for="sexo">Mujer</label>
+                        </div>
+                        <div class="sex-container">
+                        <input type="Radio" name="sexo" value="Otro">
+                        <label for="sexo">Otro</label>
+                        </div>
+
+                        <!--checkbox-->
+                        <h4>Contáme que es lo que más te gusta de mi contenido!</h4>
+                        <div class="checkbox-container">
+                            <label for="linea">Mis Ilustraciones</label>
+                            <input type="checkbox" name="linea" value="ilustraciones">
+                        </div>
+                        <div class="checkbox-container">
+                            <label for="linea">Mis Animaciones</label>
+                            <input type="checkbox" name="linea" value="animaciones">
+                        </div>
+                        <div class="checkbox-container">
+                            <label for="linea">Mi música</label>
+                            <input type="checkbox" name="linea" value="musica">
+                        </div>
+                        
+                        <!--Menú desplegable-->
+                        <h4>Que tipo de contenido te gustaría ver más en mi sitio web?</h4>
+                        <select name="Contenidos">
+                            <option value="Ilustraciones">Más Ilustraciones!</option>
+                            <option value="Animaciones">Más Animaciones!</option>
+                            <option value="Música">Más Música!</option>
+                        </select>
+                        <!--Dejanos tu comentario-->
+                        <h4>Dejános tu comentario!</h4>
+                        <textarea name="comentario" id="" cols="30" rows="10"></textarea>
+                        <!--Botones-->
+                        <div>
+                            <button type="submit">Enviar</button>
+                        </div>
+                        <div>
+                            <button type="reset">Borrar formulario</button>
+                        </div>
+                        <div>
+                            <button type="button">Sin acciones</button>
+                        </div>
+                    </fieldset>
+                </form>
+            </article>
+        </section>
+
+        <a href="#header">Volver arriba</a>
+
+    </main>
+    <footer id="footer">
+        <article>
+            <h3>Desarrollado por Gabriel Galvez,2022.</h3>
+        </article>
+        <article>
+            <!-- Icono de redes-->
+            <!-- Icono de redes-->
+            <!-- Icono de redes-->
+        </article>
+    </footer>
+</body>
+
+</html>
