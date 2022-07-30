@@ -75,6 +75,10 @@ a{
     border:5px solid black;
     margin: 2px;
 }
+/*transicion css de las imagenes*/
+.imagenes:hover{
+    transform: scale(1.02,1.02);
+}
 /* fuente para el enlace a mi behance y a mi canal de youtube*/
 .font__ultraquick{
     text-decoration:none;
