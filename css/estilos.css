@@ -67,6 +67,8 @@ background-image: linear-gradient(to left, dodgerblue,rgb(62, 31, 177));
 display:flex;
 justify-content: center;
 align-items: center;
+width:80%;
+margin:auto;
 }
 .navbar-collapse{
     flex-grow:initial;
