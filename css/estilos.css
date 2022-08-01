@@ -44,20 +44,32 @@ body{
 }
 
 header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     padding: 30px;
     font-family: "poppins", sans-serif;
-    color: rgb(236, 142, 142);
+
     background-image: url('../assets/background/240_F_304715201_JP5rl22FymzdvCEA2cKRjtcF3UrxXnng.jpg');
     background-size:cover;
     border:5px solid black;
     margin: 2px;
 }
-
-header h1{
-    color: rgb(255, 5, 5);
+.navbar-dark .navbar-brand{
+    color: rgb(238, 24, 24);
+}
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show > .nav-link {
+    color:darkturquoise;
+}
+.navbar-dark .navbar-toggler{
+    color:chartreuse;
+}
+.titulos{
+font-family: 'Ultraquick';
+background-image: linear-gradient(to left, dodgerblue,rgb(62, 31, 177));
+display:flex;
+justify-content: center;
+align-items: center;
+}
+.navbar-collapse{
+    flex-grow:initial;
 }
 p{
     font-size: 20px;
