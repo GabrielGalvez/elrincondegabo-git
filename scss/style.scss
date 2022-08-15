@@ -8,11 +8,7 @@ $estilos:(
     azul:dodgerblue,
     negro:black);
 /*Selector Universal*/
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+@import "_seluniversal.scss";
 /*selectores del body*/
 body{
     text-decoration:none;
