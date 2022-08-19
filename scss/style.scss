@@ -133,19 +133,20 @@ a{
     justify-content: center;
     width: 90%;
     margin:auto;
+    .form__container--fieldset {
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        color: black;
+        font-weight: bold;
+        background: #fd501b;
+        font-size: 20px;
+        border-radius: 5px;
+        border:3px solid black;
+    }
 }
-.form__container--fieldset {
-    padding: 15px;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    color: black;
-    font-weight: bold;
-    background: #fd501b;
-    font-size: 20px;
-    border-radius: 5px;
-    border:3px solid black;
-}
+
 @mixin parametros($font-size,$padding){
     font-size:$font-size;
     padding:$padding;
