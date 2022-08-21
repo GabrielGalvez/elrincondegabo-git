@@ -112,7 +112,6 @@ a {
   background-position: center;
   font-family: 'ultraquick';
   color: #c1c2bc;
-  position: sticky;
   bottom: 0; }
 
 /*flexbox del formulario de contacto*/
@@ -255,4 +254,11 @@ ol li {
 
 @media (max-width: 576px) {
   .nav__list {
-    flex-direction: column; } }
+    flex-direction: column; } 
+    audio{
+      width:100%;
+  }
+  ol li{
+      width:100%;
+  }
+}
